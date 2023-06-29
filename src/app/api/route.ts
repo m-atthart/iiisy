@@ -10,6 +10,8 @@ export async function GET() {
 
 	const inStock = await checkStock(itemLink);
 
+	console.log(`inStock: ${inStock}`);
+
 	if (inStock) sendEmail(itemLink);
 
 	return NextResponse.json({ inStock });
