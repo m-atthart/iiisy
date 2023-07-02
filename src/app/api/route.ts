@@ -4,7 +4,7 @@ import { Element } from "parse5/dist/tree-adapters/default";
 import { env } from "../../env.mjs";
 import nodemailer from "nodemailer";
 
-export async function GET() {
+export async function POST() {
 	const itemLink =
 		"https://www.freyamckee.co.uk/tops/p/asymmetric-milkmaid-tie-top-in-cream-freya-mckee-x-caspar-the-label-aprfm-7fzym-8ar98-5z98k-2r9x9-dyzlf-843sp-e585c";
 
